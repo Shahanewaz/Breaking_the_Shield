@@ -10,7 +10,7 @@ This repository contains the codebase for the manuscript titled **"Breaking the 
 The project evaluates single-panel and multi-panel visual prompting strategies, measures attack success rates, and analyzes how narrative context can weaken existing moderation safeguards.
 
 <p align="center">
-  <img src="assests/teaser.png" width="80%" alt="Harmful Output">
+  <img src="assests/definition_5.png" width="80%" alt="Harmful Output">
 </p>
 
 <p align="center">
