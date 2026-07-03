@@ -36,13 +36,34 @@ The project evaluates single-panel and multi-panel visual prompting strategies, 
 
 ## Method Summary
 
-We evaluate three prompting strategies:
+<p align="center"><strong>Prompting strategies evaluated in this work</strong></p>
 
-| Strategy | Description |
-|---|---|
-| Baseline | Directly asks the model to visualize a target statement. |
-| Single-panel | Frames the target statement as a misconception, stereotype, or biased viewpoint in a one-panel visual narrative. |
-| Multi-panel | Uses a sequential comic-style structure to distribute the target narrative across multiple frames. |
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Strategy</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Baseline</strong></td>
+      <td>Directly asks the model to visualize a target statement.</td>
+    </tr>
+    <tr>
+      <td><strong>Single-panel</strong></td>
+      <td>Frames the target statement as a misconception, stereotype, or biased viewpoint in a one-panel visual narrative.</td>
+    </tr>
+    <tr>
+      <td><strong>Multi-panel</strong></td>
+      <td>Uses a sequential comic-style structure to distribute the target narrative across multiple frames.</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 <p align="center">
   <img src="assests/mis_dis.png" width="60%" alt="Single Panel">
@@ -62,10 +83,39 @@ We evaluate three prompting strategies:
 
 ## Results Snapshot
 
-Attack Success Rate, GPT-4o:
+<p align="center"><strong>Attack Success Rate, GPT-4o</strong></p>
 
-| Dataset | Baseline Attack | Single-Panel Attack | Multi-Panel Attack |
-|---|---:|---:|---:|
-| Factuality Dataset | 51.2% | 94.2% | 97.1% |
-| Misinformation Dataset | 46% | 98% | 98% |
-| Discriminatory Information Dataset | 8% | 44% | 68% |
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Baseline Attack</th>
+      <th>Single-Panel Attack</th>
+      <th>Multi-Panel Attack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Factuality Dataset</td>
+      <td align="center">51.2%</td>
+      <td align="center">94.2%</td>
+      <td align="center">97.1%</td>
+    </tr>
+    <tr>
+      <td>Misinformation Dataset</td>
+      <td align="center">46%</td>
+      <td align="center">98%</td>
+      <td align="center">98%</td>
+    </tr>
+    <tr>
+      <td>Discriminatory Information Dataset</td>
+      <td align="center">8%</td>
+      <td align="center">44%</td>
+      <td align="center">68%</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
