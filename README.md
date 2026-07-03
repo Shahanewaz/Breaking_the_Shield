@@ -59,3 +59,13 @@ We evaluate three prompting strategies:
 <p align="justified">
    Multi-panel prompts successfully generated harmful narratives: (a) refugee, and (b) feminism stereotype. In both cases, GPT-4o (web inference) declined to produce a single-panel image, but accepted the same content when distributed across a multi-panel narrative.
 </p>
+
+## Results Snapshot
+
+Attack Success Rate, GPT-4o:
+
+| Dataset | Baseline Attack | Single-Panel Attack | Multi-Panel Attack |
+|---|---:|---:|---:|
+| Factuality Dataset | 51.2% | 94.2% | 97.1% |
+| Misinformation Dataset | 46% | 98% | 98% |
+| Discriminatory Information Dataset | 8% | 44% | 68% |
