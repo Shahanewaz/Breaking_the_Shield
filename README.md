@@ -25,7 +25,8 @@ The project evaluates single-panel and multi-panel visual prompting strategies, 
 - These vulnerabilities appear across multiple image-generation systems, not only one model family.
 
 <p align="center">
-  <img src="assests/mis_dis.png" width="60%" alt="Misinformation and Disinformation">
+  <img src="assets/covid_hoax_2.png" width="45%" alt="Misinformation">
+  <img src="assets/poor_lazy_2.png" width="45%" alt="Disinformation">
 </p>
 
 <p align="justified">
