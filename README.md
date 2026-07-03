@@ -26,6 +26,7 @@ The project evaluates single-panel and multi-panel visual prompting strategies, 
 
 <p align="center">
   <img src="assests/covid_hoax_2.png" width="45%" alt="Misinformation">
+   &emsp;
   <img src="assests/poor_lazy_2.png" width="45%" alt="Disinformation">
 </p>
 
